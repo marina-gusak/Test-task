@@ -142,7 +142,6 @@ class App extends React.Component {
     this.setState({
       colors: arrayColor,
       cover: Array(16).fill("#6b696d"),
-      isClicked: false,
       visibility: Array(16).fill("visible"),
       isPlaying: true
     });
